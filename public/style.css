@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    
+}
+form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+    border-radius: 50px;
+    gap: 35px;
+    background-color: #FFF;
+    opacity: 1;
+    z-index: 1000;
+}
+input[type=text]{
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 20px;
+    background: #D9D9D9;
+}
+input[type=button]{
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 20px;
+    background: #D9D9D9;
+    padding: 10px 30px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #FFF 0%, #F00 100%);
+    z-index: 9999;
+}
+h1{
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 2px rgba(255, 255, 255, 0.25);
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.con-chat{
+    width: 80%;
+    height: 88%;
+    position: absolute;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    opacity: 0;
+    z-index: 0;
+}
+.members{
+    height: 100%;
+    background: #fff;
+    width: 28%;
+    border-radius: 50px;
+}
+.top{
+    height: 7.2%;
+    width: 100%;
+    border-radius: 50px 50px 0px 0px;
+    background: #D9D9D9;
+    text-align: center;
+}
+.member{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    width: 140px;
+    height: 40px;
+    opacity: 0;
+    
+}
+
+p{
+    color: #000;
+    padding: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.users{
+    justify-content: center;
+    display: flex; 
+    flex-direction: row;
+}
+#chat-messages, #user, #user-name{
+  font-weight: 400;
+  font-family: Inter;
+}
+#chat-messages{
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  height: 400px;
+  width: 900px;
+}
+#user{
+  margin-left: 50px;
+  padding-top: 20px;
+}
+span#users{
+    padding-top: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.chat{
+    height: 100%;border-radius: 50px;
+    background: linear-gradient(180deg, #F00 0%, rgba(255, 255, 255, 0.00) 100%);    
+    width: 60%;   
+    
+}
+#msg{
+    border-radius: 0px 0px 50px 50px;
+    background: #D9D9D9;
+    text-align-last: left;
+    width: 53%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 50px 10px 30px;
+    font-size: 23px;
+}
+.icon:nth-child(1){
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    padding-right: 100px; 
+    cursor: pointer;
+    background: none;
+}
+.icon:nth-child(2){
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    padding-right: 50px; 
+    cursor: pointer;
+    background: none;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
